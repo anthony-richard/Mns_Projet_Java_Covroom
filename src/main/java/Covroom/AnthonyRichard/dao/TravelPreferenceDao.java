@@ -1,0 +1,9 @@
+package Covroom.AnthonyRichard.dao;
+
+import Covroom.AnthonyRichard.models.TravelPreference;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface TravelPreferenceDao extends JpaRepository<TravelPreference,Integer> {
+}
